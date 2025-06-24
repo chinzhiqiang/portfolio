@@ -12,14 +12,15 @@
       height: 100vh;
       font-family: 'NeueMetanaNext', sans-serif;
       position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
 
     .menu {
+      position: absolute;
+      top: 20vh;
+      left: 0;
+      right: 0;
       text-align: center;
-      line-height: 1.05;
+      line-height: 1; /* 非常緊湊行距 */
     }
 
     .menu a {
@@ -32,7 +33,7 @@
     .back {
       position: absolute;
       top: 4vw;
-      left: 4vw;
+      right: 4vw;
       width: 6vw;
       max-width: 24px;
     }
